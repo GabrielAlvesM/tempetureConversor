@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempeture Converson Program</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="text">
+            <label for="iNum">Enter a temperture:</label>
+            <br>
+            <input type="number"  id="iNum"  value="0">
+        </div>
+        <span>Convert to:</span>
+        <div class="radio">
+            <input type="radio" name="graus" id="iCelsius" >
+            <label for="iCelsius">Celsius</label>
+            <br>
+            <input type="radio" name="graus" id="iFahreinheit">
+            <label for="iFahreinheit">Fahrenheit</label>
+        </div>
+        <button id="iBtn" type="button">Submit</button>
+        <p id="tempLabel"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
